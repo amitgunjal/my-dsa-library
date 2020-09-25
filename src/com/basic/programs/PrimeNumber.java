@@ -22,6 +22,6 @@ public class PrimeNumber {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPrime(81));
+        System.out.println(isPrime(17));
     }
 }

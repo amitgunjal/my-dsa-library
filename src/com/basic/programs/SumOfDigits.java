@@ -22,6 +22,6 @@ public class SumOfDigits {
     }
 
     public static void main(String[] args) {
-        System.out.println(getSumOfDigits(0));
+        System.out.println(getSumOfDigits(123));
     }
 }
