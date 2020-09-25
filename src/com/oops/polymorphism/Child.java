@@ -1,0 +1,22 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.oops.polymorphism;
+
+/**
+ *
+ * @author amit
+ */
+public class Child extends Parent {
+
+    @Override
+    public void hello() {
+        System.out.println("I am child");
+    }
+
+    public void someMethod() {
+        System.out.println(super.pNum);
+    }
+}
